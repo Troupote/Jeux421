@@ -6,7 +6,9 @@ namespace Jeux421
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Bonjour, monde!");
+            De De1 = new De();
+
+            Console.WriteLine(De1);
         }
     }
 }

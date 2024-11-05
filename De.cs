@@ -7,7 +7,7 @@ using System.Xml.Schema;
 
 namespace Jeux421
 {
-    internal class De
+    public class De
     {
 
         public string NbFaces;
@@ -18,6 +18,7 @@ namespace Jeux421
         {
             NbFaces = nbFaces;
             random = new Random();
+            this.Face = random.Next(1, int.Parse(NbFaces) + 1);
         }
 
         public override string ToString()
